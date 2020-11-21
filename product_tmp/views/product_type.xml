@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+        <record id="product_tmplate_inherite" model="ir.ui.view">
+            <field name="name">product_tmplate_inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_only_form_view" />
+            <field name="priority" eval="3"/>
+            <field name="arch" type="xml">
+                <field name="name" position="after">
+                    <label class="oe_edit_only" for="part_number"/>
+
+                    <field name="part_number" />
+
+                </field>
+            </field>
+        </record>
+    </data>
+</odoo>
