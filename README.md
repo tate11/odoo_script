@@ -7,6 +7,12 @@ This works on xml_rpc. XML-RPC service can call function(CRUD as well as ORM), i
 XML-RPC is known as a web service. Web services are a set of tools that let one build distributed applications on top of existing web infrastructures. These applications use the Web as a kind of "transport layer" but don't offer a direct human interface via the browser.[1] Extensible Markup Language (XML) provides a vocabulary for describing Remote Procedure Calls (RPC), which is then transmitted between computers using the HyperText Transfer Protocol (HTTP). Effectively, RPC gives developers a mechanism for defining interfaces that can be called over a network. These interfaces can be as simple as a single function call or as complex as a large API.
 
 
+#Getting started
+1:python Installation Guide https://realpython.com/installing-python/
+---
+
+2:odoo installation and configuration Guide  https://www.odoo.com/documentation/14.0/setup/install.html
+---
 
 
 ----
