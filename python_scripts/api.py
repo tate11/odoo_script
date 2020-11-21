@@ -7,10 +7,10 @@ import base64
 
 
 def list_items():
-    connection = psycopg2.connect(host="127.0.0.1",
-                                  database="product_tmp",
-                                  user="postgres",
-                                  password="Netlinks@123"
+    connection = psycopg2.connect(host="",
+                                  database=",
+                                  user="",
+                                  password=""
                                   )
 
     cursor = connection.cursor()
@@ -41,10 +41,10 @@ def list_items():
 
 def xmlrpc_connection():
 
-    url = "http://localhost:8000"
-    db = "product_tmp"
-    username = 'admin'
-    password = "admin"
+    url = ""
+    db = ""
+    username = ''
+    password = ""
 
     common = xmlrpc.client.ServerProxy('{}/xmlrpc/2/common'.format(url))
     uid = common.authenticate(db, username, password, {})
