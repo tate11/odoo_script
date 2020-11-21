@@ -14,6 +14,8 @@ XML-RPC is known as a web service. Web services are a set of tools that let one 
 
 2:odoo installation and configuration Guide  https://www.odoo.com/documentation/14.0/setup/install.html
 
+3:Github Installation and clone Guide https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+
 
 
 ----
