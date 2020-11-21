@@ -8,13 +8,15 @@ XML-RPC is known as a web service. Web services are a set of tools that let one 
 
 
 #Getting started
+--
 1:python Installation Guide https://realpython.com/installing-python/
----
+
 
 2:odoo installation and configuration Guide  https://www.odoo.com/documentation/14.0/setup/install.html
----
+
 
 
 ----
 #if you have any question please feel free to contact me
 rauf.Totakhil@gmail.com
+--
